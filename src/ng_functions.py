@@ -41,7 +41,7 @@ def generateFullName(gender):
 
     return firstName + spaceStyle + lastName
 
-def generateStandardListOfFirstNames(length):
+def outputStandardListOfFirstNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print('Processing...')
@@ -56,7 +56,7 @@ def generateStandardListOfFirstNames(length):
 
     afile.close()
 
-def generateStandardListOfLastNames(length):
+def outputStandardListOfLastNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print('Processing...')
@@ -70,7 +70,7 @@ def generateStandardListOfLastNames(length):
 
     afile.close()
 
-def generateStandardListOfFullNames(length):
+def outputStandardListOfFullNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print('Processing...')
@@ -85,7 +85,7 @@ def generateStandardListOfFullNames(length):
 
     afile.close()
 
-def generateArrayOfFirstNames(length):
+def outputArrayOfFirstNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print('Processing...')
@@ -105,7 +105,7 @@ def generateArrayOfFirstNames(length):
 
     afile.close()
 
-def generateArrayOfLastNames(length):
+def outputArrayOfLastNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print('Processing...')
@@ -124,7 +124,7 @@ def generateArrayOfLastNames(length):
 
     afile.close()
 
-def generateArrayOfFullNames(length):
+def outputArrayOfFullNames(length):
     afile = open(OUTPUT_FILE_NAME, "w")
 
     print("Processing...")
@@ -143,5 +143,3 @@ def generateArrayOfFullNames(length):
     print('Process complete in {} seconds. Check output file for results.'.format(end-start))
 
     afile.close()
-
-generateArrayOfFirstNames(100)
